@@ -4,7 +4,7 @@
 
 ########## 구성 값 ##########
 
-assistant_id = "asst_8Y4pI42airev1o5W8WYje9FH"
+assistant_id = "asst_1HAn1v0wPmWxDXb4tOVAVW6Z"
 title = "어시스턴트 챗봇"
 messages_base = [
     {
@@ -21,6 +21,20 @@ messages_base = [
           "text": "안녕하세요. 무엇을 도와드릴까요?"
       }]
     },
+    {
+      "role": "user",
+      "content": [{
+          "type": "text",
+          "text": "가전 제품을 사용하는 사람이 많아?"
+      }]
+    },
+    {
+      "role": "assistant",
+      "content": [{
+          "type": "text",
+          "text": "질문해 주셔서 감사합니다."
+      }]
+    }
 ]
 
 
